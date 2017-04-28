@@ -13,4 +13,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs..
-source $HOME/.zshrc_pw
+#source $HOME/.zshrc_pw
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
